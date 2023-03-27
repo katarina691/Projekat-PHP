@@ -1,0 +1,141 @@
+body {
+  color: #1C1919;
+  background-color: #e6e6e6;
+  font-family: 'Dosis', 'Arial', sans-serif;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+footer {
+  background-color: rgba(204, 204, 204, 0.5);
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  color: #1C1919;
+  transition-duration: 350ms;
+  transition-property: font-size;
+  transition-timing-function: ease-in-out;
+}
+
+ul a:hover {
+  color: #1C1919;
+  font-size: 22px;
+  text-decoration-line: none;
+}
+
+.logo {
+  font-size: 34px;
+  font-family: 'Satisfy', cursive;
+  display: inline-block;
+  color: #8C5858;
+  text-decoration-line: underline;
+  transition-duration: 350ms;
+  transition-property: color;
+  transition-timing-function: ease-in-out;
+}
+
+.logo:hover {
+  color: #5e3b3b;
+}
+
+.nav-link, .nav-item {
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px 0 0;
+}
+
+
+/* contact */
+.contact-box {
+  margin-top: 100px;
+}
+
+.main {
+  margin-left: 300px;
+  padding: 20px
+}
+
+/* jewelry */
+.jewelry-box .card {
+  width: 300px;
+  margin: 0 20px 20px 0;
+}
+
+.jewelry-box .card.card-large {
+  width: 400px;
+}
+
+.card.card-large img {
+  width: 400px;
+  height: 350px;
+}
+
+.card img{
+  height: 280px;
+  width: 300px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  background-color: #f2f2f2;
+  padding: 2px 0;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+/* sidebar */
+.sidebar {
+  height: 150%;
+  width: 300px;
+  position: absolute;
+  top: 94px;
+  left: 0;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  border-right: 2px solid #ccc;
+  padding: 20px;
+}
+
+.post {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.post-heading {
+  color: #5e3b3b;
+}
+
+
+/* slider */
+.bx-wrapper {
+  margin: 0 auto;
+}
+
+.bx-wrapper img {
+  height: 500px;
+  width: 100%;
+}
